@@ -1,0 +1,26 @@
+order_id,buyer_name,buyer_location,product_category,product_name,size,quantity_pairs,order_date,deadline,unit_price_inr,total_value_inr,payment_status,priority,notes
+ORD-001,Karim Stores,Chandni Chowk,Gents,Gents Hawai,7,300,2026-05-10,2026-05-20,45,13500,Pending,High,Urgent - festive stock
+ORD-002,Singh Retail Co.,Karol Bagh,Ladies,Ladies Flat,5,250,2026-05-11,2026-05-21,55,13750,Partial,High,
+ORD-003,Lal Brothers,Gandhi Nagar,Ladies,Ladies Flat,5,180,2026-05-12,2026-05-23,55,9900,Pending,Medium,
+ORD-004,Gupta Traders,Sadar Bazaar,Gents,Gents Hawai,8,200,2026-05-09,2026-05-22,45,9000,Pending,Medium,
+ORD-005,Mehta & Sons,Lajpat Rai Market,Gents,Gents Hawai,8,150,2026-05-13,2026-05-25,45,6750,Paid,Medium,
+ORD-006,Karim Stores,Chandni Chowk,Gents,Gents Hawai,9,200,2026-05-10,2026-05-22,45,9000,Pending,Medium,
+ORD-007,Gupta Traders,Sadar Bazaar,Kids,Kids Hawai,3,120,2026-05-14,2026-05-28,35,4200,Paid,Low,
+ORD-008,Verma Shoe House,Paharganj,Ladies,Ladies Sandal,6,160,2026-05-08,2026-05-24,75,12000,Pending,Medium,
+ORD-009,Jain Footwear,Nehru Place,Gents,Gents Sandal,8,220,2026-05-07,2026-05-19,80,17600,Partial,High,Rush order
+ORD-010,Sharma Wholesale,Azad Market,Kids,Kids Sandal,4,90,2026-05-11,2026-05-27,50,4500,Pending,Low,
+ORD-011,Kapoor Traders,Kamla Nagar,Ladies,Ladies Hawai,4,310,2026-05-06,2026-05-18,40,12400,Pending,High,Largest size batch
+ORD-012,Yadav Stores,Tilak Nagar,Gents,Gents Hawai,6,175,2026-05-12,2026-05-26,45,7875,Paid,Low,
+ORD-013,Malhotra & Co.,Connaught Place,Ladies,Ladies Sandal,5,200,2026-05-09,2026-05-23,75,15000,Pending,Medium,
+ORD-014,Bhatia Traders,Khari Baoli,Kids,Kids Hawai,2,140,2026-05-13,2026-05-29,35,4900,Partial,Low,
+ORD-015,Jain Footwear,Nehru Place,Gents,Gents Sandal,9,130,2026-05-10,2026-05-21,80,10400,Pending,High,
+ORD-016,Sood Enterprises,Janpath,Ladies,Ladies Flat,6,280,2026-05-08,2026-05-20,55,15400,Pending,High,Back-to-back with ORD-002
+ORD-017,Kapoor Traders,Kamla Nagar,Kids,Kids Sandal,3,100,2026-05-14,2026-05-30,50,5000,Paid,Low,
+ORD-018,Mehta & Sons,Lajpat Rai Market,Ladies,Ladies Hawai,5,190,2026-05-11,2026-05-25,40,7600,Pending,Medium,
+ORD-019,Verma Shoe House,Paharganj,Gents,Gents Hawai,10,110,2026-05-12,2026-05-24,45,4950,Pending,Medium,Bigger size - check sole stock
+ORD-020,Sood Enterprises,Janpath,Gents,Gents Sandal,7,160,2026-05-09,2026-05-22,80,12800,Partial,Medium,
+ORD-021,Lal Brothers,Gandhi Nagar,Kids,Kids Hawai,1,85,2026-05-13,2026-05-28,35,2975,Pending,Low,Smallest size
+ORD-022,Sharma Wholesale,Azad Market,Ladies,Ladies Flat,4,230,2026-05-10,2026-05-21,55,12650,Pending,High,
+ORD-023,Bhatia Traders,Khari Baoli,Gents,Gents Hawai,7,195,2026-05-11,2026-05-23,45,8775,Paid,Medium,
+ORD-024,Yadav Stores,Tilak Nagar,Ladies,Ladies Sandal,7,145,2026-05-08,2026-05-26,75,10875,Pending,Low,
+ORD-025,Malhotra & Co.,Connaught Place,Kids,Kids Sandal,5,75,2026-05-14,2026-05-31,50,3750,Pending,Low,
