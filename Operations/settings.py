@@ -79,6 +79,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://3.110.108.83",
 ]
 
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://3.110.108.83",
+]
+
 WSGI_APPLICATION = 'Operations.wsgi.application'
 
 
