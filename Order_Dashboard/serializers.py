@@ -11,7 +11,7 @@ class ColorSerializer(serializers.ModelSerializer):
 
     class Meta:
         model  = Color
-        fields = ["name"]
+        fields = ["name", "id"]
 
 
 # ── Sub Party Master ───────────────────────────────────────────────────
@@ -35,7 +35,7 @@ class PartyMasterSerializer(serializers.ModelSerializer):
     
     class Meta:
         model  = Party_Master
-        fields = ["id", "name", "whatsapp_number", "transport", "station", "sub_parties"]
+        fields = ["id", "name", "whatsapp_number", "transport", "station", "sub_parties", "marka"]
 
 
 # ── Sub Party Master ───────────────────────────────────────────────────
@@ -97,7 +97,7 @@ class OrderItemSerializer(serializers.ModelSerializer):
     class Meta:
         model  = OrderItem
         fields = ["id", "size_min", "size_max", "quantity",
-                  "color", "color_id", "packing"]
+                  "color", "color_id", "packing", "product", "order"]
         read_only_fields = ["color"]
 
 
@@ -114,11 +114,11 @@ class OrdersSerializer(serializers.ModelSerializer):
                   "sub_party", "sub_party_name", "transport",
                   "marka", "items"]
 
-    def create(self, validated_data):
-        return self._save_order(validated_data)
+    # def create(self, validated_data):
+    #     return self._save_order(validated_data)
 
-    def update(self, instance, validated_data):
-        return self._save_order(validated_data, instance)
+    # def update(self, instance, validated_data):
+    #     return self._save_order(validated_data, instance)
 
 
 
